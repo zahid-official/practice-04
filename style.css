@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+body{
+    font-family: "Noto Serif Display", serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, #ffe9dc, #ffffff);
+}
+.header-area{
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px 0;   
+}
+.header-bottom{
+    padding: 120px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-left{
+    width: 47%;
+}
+.bottom-left h2{
+    font-size: 40px;
+    color: #666666;
+    padding: 0 0 20px 40px;
+    line-height: 1.1em;
+}
+.bottom-left p{
+    color:#2E2E2E;
+    font-weight: 300;
+    font-family: "Noto Sans", sans-serif;
+}
+.bottom-left button{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff4ee;
+    margin-top: 25px;
+    padding: 12px 40px;
+    border: none;
+    transition: .6s;
+    background-color: #e27d6c;
+}
+.bottom-left button:hover{
+    color: #e27d6c;
+    cursor: pointer;
+    background-color: #ffe9dc;
+}
+.bottom-right{
+    width: 47%;
+    position: relative;
+}
+.overflow{
+    width: 70%;
+    position: absolute;
+    top: 12%;
+    left: 15%;
+}
